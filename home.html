@@ -9,7 +9,27 @@
         <meta name="author" content="Mark Bonham">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <style>
-        
+            #container {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                grid-template-rows: 105px auto 15%;
+                width: 100vw;
+                height: 100vh;
+            }
+            header {
+                grid-column: 1 / 4;
+                grid-row: 1;
+            }
+            main {
+                grid-column: 1 / 4;
+                grid-row: 2;
+                display: grid;
+            }
+            footer {
+                grid-column: 1 / 4;
+                grid-row: 3;
+                padding-top: 40px;
+            }
         </style>
     </head>
     <body>
