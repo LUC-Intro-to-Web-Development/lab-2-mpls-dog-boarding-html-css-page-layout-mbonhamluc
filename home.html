@@ -30,6 +30,24 @@
                 grid-row: 2;
                 display: grid;
             }
+            #flexcontainer {
+                display: flex;
+                flex-wrap: wrap;
+                width: 100%;
+                background-image: url('img/dog_bg.jpeg');
+                background-position: center;
+                background-size: cover;
+            }
+            #flexcontainer aside {
+                flex-grow: 1;
+                flex-shrink: 0;
+                flex-basis: 325px;
+                height: 350px;
+                padding: 10px;
+                margin: 4% 2%;
+                background-color: #ffffffcf;
+                border-radius: 10px;
+            }
             footer {
                 grid-column: 1 / 4;
                 grid-row: 3;
